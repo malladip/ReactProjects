@@ -1,0 +1,38 @@
+body,
+html,
+div#react-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.board{
+    width:100%;
+    min-height:100%;
+    background: burlywood;
+    overflow: hidden;
+}
+
+.boardContent{
+    float: left;
+    overflow: hidden;
+}
+
+.boardButtons {
+    position: absolute;
+    right: 0;
+    width:50px;
+    height: 100%;
+    background-color:darkslateblue;
+}
+
+.boardButtons button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.center{
+    left:50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}

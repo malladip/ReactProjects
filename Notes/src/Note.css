@@ -1,0 +1,33 @@
+.note{
+    width:170px;
+    height:100px;
+    background: yellow;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.note textarea{
+    width: 170px;
+    background:yellow;
+}
+
+.noteContent{
+    margin: 5px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.noteButtons{
+    position: absolute;
+    bottom: 0;
+    width:170px;
+    margin: 5px;
+}
+
+.noteButtons button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
